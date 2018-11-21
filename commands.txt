@@ -4,7 +4,14 @@ ubectl get pod -n ppod2
 
 
 
+kubectl exec -it onos-ppod1-0 -n ppod1 bash
+
+./apache-karaf-3.0.8/bin/client
+
+
+
 
 thanks.
 
 that's it.
+
