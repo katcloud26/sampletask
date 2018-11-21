@@ -1,2 +1,3 @@
 ubuntu@kube-master-132:~$ kubectl get pods -o wide --all-namespaces
 ubuntu@kube-master-132:~$ kubectl get pod -n ppod1
+ubectl get pod -n ppod2
